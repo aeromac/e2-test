@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "engagesquared-client-side-solution",
+    "id": "08428ab9-79cb-4015-afe6-440be2e24028",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "engagesquared description"
+      },
+      "longDescription": {
+        "default": "engagesquared description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "engagesquared Feature",
+        "description": "The feature that activates elements of the engagesquared solution.",
+        "id": "037d1ccd-454e-49b8-b689-18373a2124d3",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/engagesquared.sppkg"
+  }
+}

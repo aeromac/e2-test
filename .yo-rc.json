@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.17.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "engagesquared",
+    "libraryId": "08428ab9-79cb-4015-afe6-440be2e24028",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "engagesquared",
+    "solutionShortDescription": "engagesquared description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

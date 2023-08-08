@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "f8b00656-6556-45c1-bddb-bea29c9936b3",
+  "alias": "EngageSquaredWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Advanced" },
+    "title": { "default": "EngageSquared" },
+    "description": { "default": "EngageSquared description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "bingMapsApiKey": "AguPmX_lAfW8kRM6fNjVJEWkIhOHjskX6R68_gvBAUl3lZYJSdH8S5vt64jKGC1m",
+      "tflApiPath": "https://api.tfl.gov.uk/Place/Type/"
+    }
+  }]
+}
